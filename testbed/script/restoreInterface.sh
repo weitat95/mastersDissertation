@@ -19,7 +19,7 @@ if grep -xq "iface wlx00c0ca8284d8 inet static" "$INTERFACEPATH"; then
 fi
 sudo service network-manager restart
 
-systemctl start systemd-resolved
-systemctl stop systemd-resolved
-systemctl stop dnsmasq
-systemctl start dnsmasq
+sudo systemctl start systemd-resolved
+sudo systemctl stop systemd-resolved
+sudo systemctl stop dnsmasq
+sudo systemctl start dnsmasq

@@ -15,23 +15,28 @@ echo "%%%%Restart service - dnsmasq"
 sudo service dnsmasq restart
 sudo ./configureAPinterface.sh
 sudo rm /var/run/hostapd/$ALPHAINTERFACE
-sudo rm /var/run/wpa_supplicant/$WINTERFACE
 
-echo "%%%%Restart client interface"
-sudo ifdown $WINTERFACE; sudo ifup $WINTERFACE
-echo "%%%%Start wpa_supplicant"
-sudo gnome-terminal --window-with-profile=hold -- su -c "wpa_supplicant -i $WINTERFACE -d -c ${CONFIGPATH}/wpa_supplicant.conf"
-sleep 5
-echo "%%%%Get address for client"
-sudo dhclient $WINTERFACE
+# Client Interface WPASUPPLICANT
+sudo ./clientInterface.sh $WINTERFACE $ALPHAINTERFACE $CONFIGPATH
 
-echo "%%%%Restart client interface"
-sudo ifdown $ALPHAINTERFACE; sudo ifup $ALPHAINTERFACE
-echo "%%%%Start hostapd"
-sudo gnome-terminal --window-with-profile=hold -- hostapd ${CONFIGPATH}/hostapd.conf
-sleep 5
-echo "%%%%Restart Service - isc-dhcp-server"
-sudo service isc-dhcp-server restart
+#sudo rm /var/run/wpa_supplicant/$WINTERFACE
+#echo "%%%%Restart client interface"
+#sudo ifdown $WINTERFACE; sudo ifup $WINTERFACE
+#echo "%%%%Start wpa_supplicant"
+#sudo gnome-terminal --window-with-profile=hold -- su -c "wpa_supplicant -i $WINTERFACE -d -c ${CONFIGPATH}/wpa_supplicant.conf"
+#sleep 5
+#echo "%%%%Get address for client"
+#sudo dhclient $WINTERFACE
+
+# Host Interface HOSTAPD
+sudo ./hostInterface.sh $WINTERFACE $ALPHAINTERFACE $CONFIGPATH
+#echo "%%%%Restart client interface"
+#sudo ifdown $ALPHAINTERFACE; sudo ifup $ALPHAINTERFACE
+#echo "%%%%Start hostapd"
+#sudo gnome-terminal --window-with-profile=hold -- hostapd ${CONFIGPATH}/hostapd.conf
+#sleep 5
+#echo "%%%%Restart Service - isc-dhcp-server"
+#sudo service isc-dhcp-server restart
 
 echo "%%%%Port Forwarding"
 sudo gnome-terminal -- su -c "

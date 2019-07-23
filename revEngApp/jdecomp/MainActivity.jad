@@ -1,0 +1,50 @@
+// Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.geocities.com/kpdus/jad.html
+// Decompiler options: packimports(3) 
+
+package com.activ8rlives.activ8rlives4;
+
+import android.os.Bundle;
+import java.util.ArrayList;
+import mono.android.IGCUserPeer;
+import mono.android.Runtime;
+import mono.android.TypeManager;
+
+public class MainActivity extends md5da774518c0af898c1651afda07f7148f.MainActivity
+    implements IGCUserPeer
+{
+
+    public MainActivity()
+    {
+        if(getClass() == com/activ8rlives/activ8rlives4/MainActivity)
+            TypeManager.Activate("Activ8rlives4.Droid.MainActivity, Activ8rlives4.Droid", "", this, new Object[0]);
+    }
+
+    private native void n_onCreate(Bundle bundle);
+
+    public void monodroidAddReference(Object obj)
+    {
+        if(refList == null)
+            refList = new ArrayList();
+        refList.add(obj);
+    }
+
+    public void monodroidClearReferences()
+    {
+        if(refList != null)
+            refList.clear();
+    }
+
+    public void onCreate(Bundle bundle)
+    {
+        n_onCreate(bundle);
+    }
+
+    public static final String __md_methods = "n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n";
+    private ArrayList refList;
+
+    static 
+    {
+        Runtime.register("Activ8rlives4.Droid.MainActivity, Activ8rlives4.Droid", com/activ8rlives/activ8rlives4/MainActivity, __md_methods);
+    }
+}

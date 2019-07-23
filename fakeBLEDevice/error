@@ -1,0 +1,58 @@
+[Warning] @,: Compiler version mismatch: Have 7.3.1; expected version >= 6.0.0 and < 7.0.0
+Building project dissertation (NRF51_DK, GCC_ARM)
+Scan: dissertation
+Compile [100.0%]: main.cpp
+[Warning] CustomService.h@324,41: 'HeartRateService::read3' will be initialized after [-Wreorder]
+[Warning] CustomService.h@322,24:   'GattCharacteristic HeartRateService::read2' [-Wreorder]
+[Warning] CustomService.h@123,5:   when initialized here [-Wreorder]
+[Warning] CustomService.h@322,24: 'HeartRateService::read2' will be initialized after [-Wreorder]
+[Warning] CustomService.h@321,24:   'GattCharacteristic HeartRateService::read1' [-Wreorder]
+[Warning] CustomService.h@123,5:   when initialized here [-Wreorder]
+[Warning] CustomService.h@219,91: 'ble_error_t ble::interface::LegacyGap<Impl>::disconnect(ble::interface::LegacyGap<Impl>::DisconnectionReason_t) [with Impl = nRF5xGap]' is deprecated: Use disconnect(Handle_t, DisconnectionReason_t) instead. [-Wdeprecated-declarations]
+[Warning] main.cpp@89,44: 'ble_error_t ble::interface::LegacyGap<Impl>::startAdvertising() [with Impl = nRF5xGap]' is deprecated: Deprecated since addition of extended advertising support. Use startAdvertising(advertising_handle_t, adv_duration_t, uint8_t) instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@104,107: 'ble_error_t ble::interface::LegacyGap<Impl>::disconnect(ble::interface::LegacyGap<Impl>::DisconnectionReason_t) [with Impl = nRF5xGap]' is deprecated: Use disconnect(Handle_t, DisconnectionReason_t) instead. [-Wdeprecated-declarations]
+[Warning] main.cpp@133,103: 'ble_error_t ble::interface::LegacyGap<Impl>::disconnect(ble::interface::LegacyGap<Impl>::DisconnectionReason_t) [with Impl = nRF5xGap]' is deprecated: Use disconnect(Handle_t, DisconnectionReason_t) instead. [-Wdeprecated-declarations]
+[Warning] main.cpp@203,46: 'void ble::interface::LegacyGap<Impl>::onConnection(ble::interface::LegacyGap<Impl>::ConnectionEventCallback_t) [with Impl = nRF5xGap; ble::interface::LegacyGap<Impl>::ConnectionEventCallback_t = FunctionPointerWithContext<const ble::interface::LegacyGap<nRF5xGap>::ConnectionCallbackParams_t*>]' is deprecated: Deprecated since addition of extended advertising support. Use setEventHandler() instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@204,52: 'void ble::interface::LegacyGap<Impl>::onDisconnection(ble::interface::LegacyGap<Impl>::DisconnectionEventCallback_t) [with Impl = nRF5xGap; ble::interface::LegacyGap<Impl>::DisconnectionEventCallback_t = FunctionPointerWithContext<const ble::interface::LegacyGap<nRF5xGap>::DisconnectionCallbackParams_t*>]' is deprecated: Deprecated since addition of extended advertising support. Use setEventHandler() instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@206,129: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(uint8_t) [with Impl = nRF5xGap; uint8_t = unsigned char]' is deprecated: Deprecated since addition of extended advertising support.Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@207,140: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(GapAdvertisingData::DataType, const uint8_t*, uint8_t) [with Impl = nRF5xGap; GapAdvertisingData::DataType = GapAdvertisingData::DataType_t; uint8_t = unsigned char]' is deprecated: Deprecated since addition of extended advertising support. Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@208,89: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(GapAdvertisingData::Appearance) [with Impl = nRF5xGap; GapAdvertisingData::Appearance = GapAdvertisingData::Appearance_t]' is deprecated: Deprecated since addition of extended advertising support. Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@209,128: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(GapAdvertisingData::DataType, const uint8_t*, uint8_t) [with Impl = nRF5xGap; GapAdvertisingData::DataType = GapAdvertisingData::DataType_t; uint8_t = unsigned char]' is deprecated: Deprecated since addition of extended advertising support. Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@210,82: 'void ble::interface::LegacyGap<Impl>::setAdvertisingType(GapAdvertisingParams::AdvertisingType_t) [with Impl = nRF5xGap]' is deprecated: Deprecated since addition of extended advertising support. This option is now part of ble::AdvertisingParameters [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@211,42: 'void ble::interface::LegacyGap<Impl>::setAdvertisingInterval(uint16_t) [with Impl = nRF5xGap; uint16_t = short unsigned int]' is deprecated: Deprecated since addition of extended advertising support. This option is now part of ble::AdvertisingParameters [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@212,32: 'ble_error_t ble::interface::LegacyGap<Impl>::startAdvertising() [with Impl = nRF5xGap]' is deprecated: Deprecated since addition of extended advertising support. Use startAdvertising(advertising_handle_t, adv_duration_t, uint8_t) instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+Link: dissertation
+Elf2Bin: dissertation
+Post-Build: dissertation
+| Module           |      .text |    .data |     .bss |
+|------------------|------------|----------|----------|
+| [fill]           |     90(+0) |   11(+0) |   67(+4) |
+| [lib]/c.a        |  30956(+0) | 2472(+0) |   89(+0) |
+| [lib]/gcc.a      |   8572(+0) |    0(+0) |    0(+0) |
+| [lib]/misc       |    192(+0) |    4(+0) |   28(+0) |
+| [lib]/stdc++.a   |      0(+0) |    0(+0) |    0(+0) |
+| main.o           |  2848(+60) |    1(+0) |  354(+4) |
+| mbed-os/drivers  |   1610(+0) |    0(+0) |    0(+0) |
+| mbed-os/events   |   1270(+0) |    0(+0) |    0(+0) |
+| mbed-os/features |  17598(+0) |    0(+0) | 1283(+0) |
+| mbed-os/hal      |   1300(+0) |    8(+0) |  129(+0) |
+| mbed-os/platform |   4012(+0) |  260(+0) |  312(+0) |
+| mbed-os/rtos     |   8540(+0) |  168(+0) | 6029(+0) |
+| mbed-os/targets  |   8788(+0) |    4(+0) |  861(+0) |
+| Subtotals        | 85776(+60) | 2928(+0) | 9152(+8) |
+Total Static RAM memory (data + bss): 12080(+8) bytes
+Total Flash memory (text + data): 88704(+60) bytes
+
+Image: ./BUILD/NRF51_DK/GCC_ARM/dissertation.hex
+[mbed] Working path "/afs/inf.ed.ac.uk/user/s14/s1451142/coursework/iotssc/projects/dissertation" (program)
+[mbed] Auto-installing missing Python modules (hidapi, pywin32, wmi)...
+
+[mbed] Detected NRF51_DK, port /dev/ttyACM0, mounted /run/media/s1451142/DAPLINK, interface version 0251:
+[mbed] Supported toolchains for NRF51_DK
+| Target   | mbed OS 2 | mbed OS 5 | uARM |    IAR    |    ARM    |  GCC_ARM  | ARMC5 |
+|----------|-----------|-----------|------|-----------|-----------|-----------|-------|
+| NRF51_DK | Supported | Supported |  -   | Supported | Supported | Supported |   -   |
+Supported targets: 1
+Supported toolchains: 3
+[mbed] Working path "/afs/inf.ed.ac.uk/user/s14/s1451142/coursework/iotssc/projects/dissertation" (program)
+[mbed] Auto-installing missing Python modules (hidapi, pywin32, wmi)...

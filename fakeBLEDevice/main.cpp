@@ -38,23 +38,38 @@ static EventQueue eventQueue(/* event count */ 16 * EVENTS_EVENT_SIZE);
 uint8_t pairing = 0; // 0 -> measuring, 1 -> pairing
 uint8_t sendingData = 0;
 uint8_t timeStamp[4];
-
+uint8_t fakeValues[3];
 void button1Callback(void){
+    if (pairing){
+        pc.printf("Pairing Mode!\n\r");
+    }else{
+        pc.printf("Normal Mode!\n\r");
+    }
     pairing = !pairing;
 }
 
 void initiatePasswordRead(){
+    pc.printf("Initiate Password Read!\n\r");
     hrServicePtr->sendPasswordRead();
 }
 void initiateChallenge(){
+    pc.printf("Initiate Challenge!\n\r");
     hrServicePtr->sendPasswordChallenge();
 }
 void initiateFakeData(){
-    hrServicePtr->sendFakeData();
+    uint8_t fakeValues[3]={
+        0, // Systolic Blood Pressure (mmHg)
+        0, // Diastolic Blood Pressure (mmHg)
+        0  // Hear Rate (bpm)
+    };
+    pc.printf("sentFakeData! \n\rSys: %d, Dia: %d, HeartRate: %d\n\r", 
+            fakeValues[0], fakeValues[1], fakeValues[2]);
+    hrServicePtr->sendFakeData(fakeValues);
 }
 
 void when_update_enabled(GattAttribute::Handle_t handle)
 {
+    pc.printf("Update enabled by client!\n\r");
     led3 = 0;
     if(pairing){
         eventQueue.call(initiatePasswordRead);
@@ -66,12 +81,14 @@ void when_update_enabled(GattAttribute::Handle_t handle)
 
 void when_update_disabled(GattAttribute::Handle_t handle)
 {
+    pc.printf("Updates disabled by client!\n\r");
     led3 = 1;
 }
 
 
 void disconnectionCallback(const Gap::DisconnectionCallbackParams_t *params)
 {
+    pc.printf("Client Disconnected\n\r");
     led2 = 1;
     led3 = 1;
     led4 = 1;
@@ -82,6 +99,7 @@ void disconnectionCallback(const Gap::DisconnectionCallbackParams_t *params)
 
 void connectionCallback(const Gap::ConnectionCallbackParams_t *params)
 {
+    pc.printf("Client Connected\n\r");
     led2 = 0;
 }
 

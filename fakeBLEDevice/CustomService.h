@@ -207,10 +207,10 @@ public:
         fakeValue[10] = timeStamp[3];
     }
 
-    void sendFakeData(){
-        fakeValue[1] = 1;
-        fakeValue[3] = 2;
-        fakeValue[11] = 3;
+    void sendFakeData(uint8_t * fakeValues){
+        fakeValue[1] = fakeValues[0];
+        fakeValue[3] = fakeValues[1];
+        fakeValue[11] = fakeValues[2];
         ble.gattServer().write(
             read2.getValueHandle(),
             fakeValue,

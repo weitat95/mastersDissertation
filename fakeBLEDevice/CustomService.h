@@ -207,10 +207,10 @@ public:
         fakeValue[10] = timeStamp[3];
     }
 
-    void sendFakeData(uint8_t * fakeValues){
-        fakeValue[1] = fakeValues[0];
-        fakeValue[3] = fakeValues[1];
-        fakeValue[11] = fakeValues[2];
+    void sendFakeData(){
+        fakeValue[1] = 1;
+        fakeValue[3] = 2;
+        fakeValue[11] = 3;
         ble.gattServer().write(
             read2.getValueHandle(),
             fakeValue,
@@ -327,3 +327,4 @@ protected:
 #endif // BLE_FEATURE_GATT_SERVER
 
 #endif /* #ifndef MBED_BLE_HEART_RATE_SERVICE_H__*/
+

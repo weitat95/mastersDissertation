@@ -104,10 +104,10 @@ void dataWrittenCallback(const GattWriteCallbackParams * params)
 
         }
         if ((params->data)[0]==2){
-            timeStamp[0] = params->data[0];
-            timeStamp[1] = params->data[1];
-            timeStamp[2] = params->data[2];
-            timeStamp[3] = params->data[3];
+            timeStamp[0] = params->data[1];
+            timeStamp[1] = params->data[2];
+            timeStamp[2] = params->data[3];
+            timeStamp[3] = params->data[4];
 
             hrServicePtr -> saveTimeStamp(timeStamp);
         }

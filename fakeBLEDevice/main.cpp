@@ -148,6 +148,11 @@ void onBleInitError(BLE &ble, ble_error_t error)
     (void)error;
    /* Initialization error handling should go here */
 }
+void setupMacAddress()//uint8_t * macAddress)
+{
+    uint8_t  address1[6] = {0x7C,0x2A,0x8D,0x42,0x52,0xD9};
+    BLE::Instance().gap().setAddress(BLEProtocol::AddressType::PUBLIC, address1);
+}
 
 void printMacAddress()
 {
@@ -186,6 +191,14 @@ void bleInitComplete(BLE::InitializationCompleteCallbackContext *params)
     ble.gattServer().onDataSent(dataSentCallback);
     ble.gap().onConnection(connectionCallback);
     ble.gap().onDisconnection(disconnectionCallback);
+
+    
+
+
+    /* Setup MAC Address. */
+    
+    setupMacAddress();
+
     /* Setup advertising. */
     ble.gap().accumulateAdvertisingPayload(GapAdvertisingData::BREDR_NOT_SUPPORTED | GapAdvertisingData::LE_GENERAL_DISCOVERABLE);
     ble.gap().accumulateAdvertisingPayload(GapAdvertisingData::COMPLETE_LIST_16BIT_SERVICE_IDS, (uint8_t *)uuid16_list, sizeof(uuid16_list));

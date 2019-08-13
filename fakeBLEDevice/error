@@ -9,40 +9,43 @@ Compile [100.0%]: main.cpp
 [Warning] CustomService.h@321,24:   'GattCharacteristic HeartRateService::read1' [-Wreorder]
 [Warning] CustomService.h@123,5:   when initialized here [-Wreorder]
 [Warning] CustomService.h@219,91: 'ble_error_t ble::interface::LegacyGap<Impl>::disconnect(ble::interface::LegacyGap<Impl>::DisconnectionReason_t) [with Impl = nRF5xGap]' is deprecated: Use disconnect(Handle_t, DisconnectionReason_t) instead. [-Wdeprecated-declarations]
-[Warning] main.cpp@80,44: 'ble_error_t ble::interface::LegacyGap<Impl>::startAdvertising() [with Impl = nRF5xGap]' is deprecated: Deprecated since addition of extended advertising support. Use startAdvertising(advertising_handle_t, adv_duration_t, uint8_t) instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
-[Warning] main.cpp@95,107: 'ble_error_t ble::interface::LegacyGap<Impl>::disconnect(ble::interface::LegacyGap<Impl>::DisconnectionReason_t) [with Impl = nRF5xGap]' is deprecated: Use disconnect(Handle_t, DisconnectionReason_t) instead. [-Wdeprecated-declarations]
-[Warning] main.cpp@120,103: 'ble_error_t ble::interface::LegacyGap<Impl>::disconnect(ble::interface::LegacyGap<Impl>::DisconnectionReason_t) [with Impl = nRF5xGap]' is deprecated: Use disconnect(Handle_t, DisconnectionReason_t) instead. [-Wdeprecated-declarations]
-[Warning] main.cpp@154,80: 'ble_error_t ble::interface::LegacyGap<Impl>::setAddress(BLEProtocol::AddressType_t, const uint8_t*) [with Impl = nRF5xGap; BLEProtocol::AddressType_t = BLEProtocol::AddressType::Type; uint8_t = unsigned char]' is deprecated: Non portable API, use enablePrivacy to enable use of private addresses [since mbed-os-5.9.0] [-Wdeprecated-declarations]
-[Warning] main.cpp@192,46: 'void ble::interface::LegacyGap<Impl>::onConnection(ble::interface::LegacyGap<Impl>::ConnectionEventCallback_t) [with Impl = nRF5xGap; ble::interface::LegacyGap<Impl>::ConnectionEventCallback_t = FunctionPointerWithContext<const ble::interface::LegacyGap<nRF5xGap>::ConnectionCallbackParams_t*>]' is deprecated: Deprecated since addition of extended advertising support. Use setEventHandler() instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
-[Warning] main.cpp@193,52: 'void ble::interface::LegacyGap<Impl>::onDisconnection(ble::interface::LegacyGap<Impl>::DisconnectionEventCallback_t) [with Impl = nRF5xGap; ble::interface::LegacyGap<Impl>::DisconnectionEventCallback_t = FunctionPointerWithContext<const ble::interface::LegacyGap<nRF5xGap>::DisconnectionCallbackParams_t*>]' is deprecated: Deprecated since addition of extended advertising support. Use setEventHandler() instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
-[Warning] main.cpp@199,129: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(uint8_t) [with Impl = nRF5xGap; uint8_t = unsigned char]' is deprecated: Deprecated since addition of extended advertising support.Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
-[Warning] main.cpp@200,140: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(GapAdvertisingData::DataType, const uint8_t*, uint8_t) [with Impl = nRF5xGap; GapAdvertisingData::DataType = GapAdvertisingData::DataType_t; uint8_t = unsigned char]' is deprecated: Deprecated since addition of extended advertising support. Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
-[Warning] main.cpp@201,89: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(GapAdvertisingData::Appearance) [with Impl = nRF5xGap; GapAdvertisingData::Appearance = GapAdvertisingData::Appearance_t]' is deprecated: Deprecated since addition of extended advertising support. Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
-[Warning] main.cpp@202,128: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(GapAdvertisingData::DataType, const uint8_t*, uint8_t) [with Impl = nRF5xGap; GapAdvertisingData::DataType = GapAdvertisingData::DataType_t; uint8_t = unsigned char]' is deprecated: Deprecated since addition of extended advertising support. Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
-[Warning] main.cpp@203,82: 'void ble::interface::LegacyGap<Impl>::setAdvertisingType(GapAdvertisingParams::AdvertisingType_t) [with Impl = nRF5xGap]' is deprecated: Deprecated since addition of extended advertising support. This option is now part of ble::AdvertisingParameters [since mbed-os-5.11.0] [-Wdeprecated-declarations]
-[Warning] main.cpp@204,42: 'void ble::interface::LegacyGap<Impl>::setAdvertisingInterval(uint16_t) [with Impl = nRF5xGap; uint16_t = short unsigned int]' is deprecated: Deprecated since addition of extended advertising support. This option is now part of ble::AdvertisingParameters [since mbed-os-5.11.0] [-Wdeprecated-declarations]
-[Warning] main.cpp@205,32: 'ble_error_t ble::interface::LegacyGap<Impl>::startAdvertising() [with Impl = nRF5xGap]' is deprecated: Deprecated since addition of extended advertising support. Use startAdvertising(advertising_handle_t, adv_duration_t, uint8_t) instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@88,44: 'ble_error_t ble::interface::LegacyGap<Impl>::startAdvertising() [with Impl = nRF5xGap]' is deprecated: Deprecated since addition of extended advertising support. Use startAdvertising(advertising_handle_t, adv_duration_t, uint8_t) instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@105,107: 'ble_error_t ble::interface::LegacyGap<Impl>::disconnect(ble::interface::LegacyGap<Impl>::DisconnectionReason_t) [with Impl = nRF5xGap]' is deprecated: Use disconnect(Handle_t, DisconnectionReason_t) instead. [-Wdeprecated-declarations]
+[Warning] main.cpp@131,103: 'ble_error_t ble::interface::LegacyGap<Impl>::disconnect(ble::interface::LegacyGap<Impl>::DisconnectionReason_t) [with Impl = nRF5xGap]' is deprecated: Use disconnect(Handle_t, DisconnectionReason_t) instead. [-Wdeprecated-declarations]
+[Warning] main.cpp@164,80: 'ble_error_t ble::interface::LegacyGap<Impl>::setAddress(BLEProtocol::AddressType_t, const uint8_t*) [with Impl = nRF5xGap; BLEProtocol::AddressType_t = BLEProtocol::AddressType::Type; uint8_t = unsigned char]' is deprecated: Non portable API, use enablePrivacy to enable use of private addresses [since mbed-os-5.9.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@211,49: 'ble_error_t BLE::stopScan()' is deprecated: Use ble.gap().stopScan() [-Wdeprecated-declarations]
+[Warning] main.cpp@275,46: 'void ble::interface::LegacyGap<Impl>::onConnection(ble::interface::LegacyGap<Impl>::ConnectionEventCallback_t) [with Impl = nRF5xGap; ble::interface::LegacyGap<Impl>::ConnectionEventCallback_t = FunctionPointerWithContext<const ble::interface::LegacyGap<nRF5xGap>::ConnectionCallbackParams_t*>]' is deprecated: Deprecated since addition of extended advertising support. Use setEventHandler() instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@276,52: 'void ble::interface::LegacyGap<Impl>::onDisconnection(ble::interface::LegacyGap<Impl>::DisconnectionEventCallback_t) [with Impl = nRF5xGap; ble::interface::LegacyGap<Impl>::DisconnectionEventCallback_t = FunctionPointerWithContext<const ble::interface::LegacyGap<nRF5xGap>::DisconnectionCallbackParams_t*>]' is deprecated: Deprecated since addition of extended advertising support. Use setEventHandler() instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@284,63: 'ble_error_t ble::interface::LegacyGap<Impl>::setScanParams(uint16_t, uint16_t, uint16_t, bool) [with Impl = nRF5xGap; uint16_t = short unsigned int]' is deprecated: Deprecated since addition of extended advertising support. Use setScanParameters(const ScanParameters &) instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@285,37: 'ble_error_t ble::interface::LegacyGap<Impl>::startScan(void (*)(const ble::interface::LegacyGap<Impl>::AdvertisementCallbackParams_t*)) [with Impl = nRF5xGap]' is deprecated: Deprecated since addition of extended advertising support. Use startScan(duplicates_filter_t, scan_duration_t, scan_period_t) instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@292,133: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(uint8_t) [with Impl = nRF5xGap; uint8_t = unsigned char]' is deprecated: Deprecated since addition of extended advertising support.Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@293,144: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(GapAdvertisingData::DataType, const uint8_t*, uint8_t) [with Impl = nRF5xGap; GapAdvertisingData::DataType = GapAdvertisingData::DataType_t; uint8_t = unsigned char]' is deprecated: Deprecated since addition of extended advertising support. Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@294,93: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(GapAdvertisingData::Appearance) [with Impl = nRF5xGap; GapAdvertisingData::Appearance = GapAdvertisingData::Appearance_t]' is deprecated: Deprecated since addition of extended advertising support. Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@295,132: 'ble_error_t ble::interface::LegacyGap<Impl>::accumulateAdvertisingPayload(GapAdvertisingData::DataType, const uint8_t*, uint8_t) [with Impl = nRF5xGap; GapAdvertisingData::DataType = GapAdvertisingData::DataType_t; uint8_t = unsigned char]' is deprecated: Deprecated since addition of extended advertising support. Use ble::AdvertisingDataBuilder instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@296,86: 'void ble::interface::LegacyGap<Impl>::setAdvertisingType(GapAdvertisingParams::AdvertisingType_t) [with Impl = nRF5xGap]' is deprecated: Deprecated since addition of extended advertising support. This option is now part of ble::AdvertisingParameters [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@297,44: 'void ble::interface::LegacyGap<Impl>::setAdvertisingInterval(uint16_t) [with Impl = nRF5xGap; uint16_t = short unsigned int]' is deprecated: Deprecated since addition of extended advertising support. This option is now part of ble::AdvertisingParameters [since mbed-os-5.11.0] [-Wdeprecated-declarations]
+[Warning] main.cpp@298,36: 'ble_error_t ble::interface::LegacyGap<Impl>::startAdvertising() [with Impl = nRF5xGap]' is deprecated: Deprecated since addition of extended advertising support. Use startAdvertising(advertising_handle_t, adv_duration_t, uint8_t) instead. [since mbed-os-5.11.0] [-Wdeprecated-declarations]
 Link: fakeBLEDevice
 Elf2Bin: fakeBLEDevice
 Post-Build: fakeBLEDevice
 | Module           |     .text |    .data |     .bss |
 |------------------|-----------|----------|----------|
-| [fill]           |    90(+0) |   11(+0) |   67(+0) |
+| [fill]           |    94(+0) |    4(+0) |   67(+0) |
 | [lib]/c.a        | 30956(+0) | 2472(+0) |   89(+0) |
 | [lib]/gcc.a      |  8572(+0) |    0(+0) |    0(+0) |
 | [lib]/misc       |   192(+0) |    4(+0) |   28(+0) |
 | [lib]/stdc++.a   |     0(+0) |    0(+0) |    0(+0) |
-| main.o           |  2892(+0) |    1(+0) |  354(+0) |
+| main.o           |  3380(+4) |    8(+0) |  354(+0) |
 | mbed-os/drivers  |  1610(+0) |    0(+0) |    0(+0) |
-| mbed-os/events   |  1270(+0) |    0(+0) |    0(+0) |
-| mbed-os/features | 17714(+0) |    0(+0) | 1283(+0) |
+| mbed-os/events   |  1312(+0) |    0(+0) |    0(+0) |
+| mbed-os/features | 18236(+0) |    0(+0) | 1283(+0) |
 | mbed-os/hal      |  1300(+0) |    8(+0) |  129(+0) |
 | mbed-os/platform |  4012(+0) |  260(+0) |  312(+0) |
 | mbed-os/rtos     |  8540(+0) |  168(+0) | 6029(+0) |
 | mbed-os/targets  |  8788(+0) |    4(+0) |  861(+0) |
-| Subtotals        | 85936(+0) | 2928(+0) | 9152(+0) |
+| Subtotals        | 86992(+4) | 2928(+0) | 9152(+0) |
 Total Static RAM memory (data + bss): 12080(+0) bytes
-Total Flash memory (text + data): 88864(+0) bytes
+Total Flash memory (text + data): 89920(+4) bytes
 
 Image: ./BUILD/NRF51_DK/GCC_ARM/fakeBLEDevice.hex
 [mbed] Working path "/afs/inf.ed.ac.uk/user/s14/s1451142/dissertation/mastersDissertation/fakeBLEDevice" (library)

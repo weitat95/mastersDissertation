@@ -39,10 +39,10 @@ uint8_t pairing = 0; // 0 -> measuring, 1 -> pairing
 uint8_t sendingData = 0;
 uint8_t timeStamp[4];
 
-bool found_honey = true;
-//bool found_honey = false;
-uint8_t honeyPot[] = {0x7C, 0x2A, 0x8D, 0x42, 0x52, 0xD9};
-//uint8_t honeyPot[6];
+//bool found_honey = true;
+bool found_honey = false;
+//uint8_t honeyPot[] = {0x7C, 0x2A, 0x8D, 0x42, 0x52, 0xD9};
+uint8_t honeyPot[6];
 
 void button1Callback(void){
     pairing = !pairing;
@@ -92,6 +92,7 @@ void connectionCallback(const Gap::ConnectionCallbackParams_t *params)
 {
     pc.printf("ConnectionCallBack\r\n");
     led2 = 0;
+    initiateChallenge();
 }
 
 void dataWrittenCallback(const GattWriteCallbackParams * params)
@@ -145,10 +146,19 @@ void updateSensorValue() {
 
 void periodicCallback(void)
 {
-    if (!pairing){
+    if(!found_honey){
         led1 = !led1;
-    }else {
-        led1 = 0;
+        led2 = !led2;
+        led3 = !led3;
+        led4 = !led4;
+    }else{
+            
+        if (!pairing){
+            led1 = !led1;
+        }else {
+            led1 = 0;
+        }
+
     }
 
 }
@@ -201,6 +211,10 @@ void on_scan(const Gap::AdvertisementCallbackParams_t *params){
             found_honey = true;
             pc.printf("Jackpot!\n\r");
             pc.printf("Honey Address: ");
+            led1 = 1;
+            led2 = 1;
+            led3 = 1;
+            led4 = 1;
             for(int i=5; i>0; i--){
                 honeyPot[i]=params->peerAddr[i];
                 pc.printf("%x:",honeyPot[i]);
@@ -209,17 +223,17 @@ void on_scan(const Gap::AdvertisementCallbackParams_t *params){
             pc.printf("%x\r\n", honeyPot[0]);
 
             bleerror = BLE::Instance().stopScan();
-            pc.printf("stopscanError:%d\r\n", bleerror);
+//pc.printf("stopscanError:%d\r\n", bleerror);
             
             bleerror = BLE::Instance().shutdown();
-            pc.printf("shutdownError:%d\r\n", bleerror);
+//pc.printf("shutdownError:%d\r\n", bleerror);
             
             eventQueue.break_dispatch();
 
             BLE::Instance().onEventsToProcess(scheduleBleEventsProcessing);
             
             bleerror = BLE::Instance().init(bleInitComplete);
-            pc.printf("InitError:%d\r\n", bleerror);
+//pc.printf("InitError:%d\r\n", bleerror);
             
             eventQueue.dispatch_forever();
             return;
@@ -275,6 +289,7 @@ void bleInitComplete(BLE::InitializationCompleteCallbackContext *params)
     ble.gap().onConnection(connectionCallback);
     ble.gap().onDisconnection(disconnectionCallback);
     if(!found_honey){    
+        pc.printf("Start scanning... \r\n");
         pc.printf("Looking for target device's MAC Address\r\n");
         /* Setup Scanning Parameters */
         uint16_t interval = 160; // ms
@@ -294,7 +309,7 @@ void bleInitComplete(BLE::InitializationCompleteCallbackContext *params)
         ble.gap().accumulateAdvertisingPayload(GapAdvertisingData::GENERIC_HEART_RATE_SENSOR);
         ble.gap().accumulateAdvertisingPayload(GapAdvertisingData::COMPLETE_LOCAL_NAME, (uint8_t *)DEVICE_NAME, sizeof(DEVICE_NAME));
         ble.gap().setAdvertisingType(GapAdvertisingParams::ADV_CONNECTABLE_UNDIRECTED);
-        ble.gap().setAdvertisingInterval(10); /* 1000ms */
+        ble.gap().setAdvertisingInterval(5000); /* 1000ms */
         ble.gap().startAdvertising();
         printMacAddress();
     }

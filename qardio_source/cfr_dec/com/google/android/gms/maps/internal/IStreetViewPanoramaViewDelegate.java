@@ -1,0 +1,35 @@
+/*
+ * Decompiled with CFR 0.147.
+ * 
+ * Could not load the following classes:
+ *  android.os.Bundle
+ *  android.os.IInterface
+ *  android.os.RemoteException
+ */
+package com.google.android.gms.maps.internal;
+
+import android.os.Bundle;
+import android.os.IInterface;
+import android.os.RemoteException;
+import com.google.android.gms.dynamic.IObjectWrapper;
+import com.google.android.gms.maps.internal.zzbp;
+
+public interface IStreetViewPanoramaViewDelegate
+extends IInterface {
+    public void getStreetViewPanoramaAsync(zzbp var1) throws RemoteException;
+
+    public IObjectWrapper getView() throws RemoteException;
+
+    public void onCreate(Bundle var1) throws RemoteException;
+
+    public void onDestroy() throws RemoteException;
+
+    public void onLowMemory() throws RemoteException;
+
+    public void onPause() throws RemoteException;
+
+    public void onResume() throws RemoteException;
+
+    public void onSaveInstanceState(Bundle var1) throws RemoteException;
+}
+

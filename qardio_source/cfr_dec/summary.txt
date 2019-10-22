@@ -1,0 +1,2249 @@
+Summary for ../dissertation/revEngApp/qardio/Qardio_com.getqardio.android-dex2jar.jar
+Decompiled with CFR 0.147
+
+
+android.arch.lifecycle.ReflectiveGenericLifecycleObserver
+----------------------------
+
+invokeCallback(android.arch.lifecycle.ReflectiveGenericLifecycleObserver$MethodReference android.arch.lifecycle.LifecycleOwner android.arch.lifecycle.Lifecycle$Event )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 3[SWITCH]
+
+
+android.support.constraint.ConstraintSet
+----------------------------
+
+load(android.content.Context int )
+  Unable to fully structure code
+
+
+android.support.constraint.solver.ArrayLinkedVariables
+----------------------------
+
+add(android.support.constraint.solver.SolverVariable float )
+  Unable to fully structure code
+put(android.support.constraint.solver.SolverVariable float )
+  Unable to fully structure code
+
+
+android.support.constraint.solver.LinearSystem
+----------------------------
+
+enforceBFS(android.support.constraint.solver.Goal )
+  Unable to fully structure code
+
+
+android.support.constraint.solver.widgets.ConstraintWidgetContainer
+----------------------------
+
+applyHorizontalChain(android.support.constraint.solver.LinearSystem )
+  Unable to fully structure code
+applyVerticalChain(android.support.constraint.solver.LinearSystem )
+  Unable to fully structure code
+optimize(android.support.constraint.solver.LinearSystem )
+  Unable to fully structure code
+layout()
+  Unable to fully structure code
+
+
+android.support.v7.widget.LinearLayoutCompat
+----------------------------
+
+measureHorizontal(int int )
+  Unable to fully structure code
+measureVertical(int int )
+  Unable to fully structure code
+
+
+android.support.v7.widget.RecyclerView
+----------------------------
+
+createLayoutManager(android.content.Context java.lang.String android.util.AttributeSet int int )
+  Unable to fully structure code
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+recycleViewHolderInternal(android.support.v7.widget.RecyclerView$ViewHolder )
+  Unable to fully structure code
+
+
+android.support.transition.Transition
+----------------------------
+
+createAnimators(android.view.ViewGroup android.support.transition.TransitionValuesMaps android.support.transition.TransitionValuesMaps java.util.ArrayList<android.support.transition.TransitionValues> java.util.ArrayList<android.support.transition.TransitionValues> )
+  Unable to fully structure code
+
+
+android.support.design.widget.HeaderBehavior
+----------------------------
+
+onTouchEvent(android.support.design.widget.CoordinatorLayout V android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.design.widget.CoordinatorLayout
+----------------------------
+
+getDesiredAnchoredChildRectWithoutConstraints(android.view.View int android.graphics.Rect android.graphics.Rect android.support.design.widget.CoordinatorLayout$LayoutParams int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+onChildViewsChanged(int )
+  Unable to fully structure code
+
+
+android.support.graphics.drawable.AnimationUtilsCompat
+----------------------------
+
+loadInterpolator(android.content.Context int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[CATCHBLOCK]], but top level block is 8[CATCHBLOCK]
+
+
+android.support.graphics.drawable.AnimatorInflaterCompat
+----------------------------
+
+loadAnimator(android.content.Context android.content.res.Resources android.content.res.Resources$Theme int float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 5[CATCHBLOCK]
+loadPvh(android.content.Context android.content.res.Resources android.content.res.Resources$Theme org.xmlpull.v1.XmlPullParser java.lang.String int )
+  Unable to fully structure code
+
+
+android.support.multidex.MultiDex
+----------------------------
+
+install(android.content.Context )
+  Unable to fully structure code
+
+
+android.support.multidex.MultiDexExtractor
+----------------------------
+
+extract(java.util.zip.ZipFile java.util.zip.ZipEntry java.io.File java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 2[TRYBLOCK]
+performExtractions(java.io.File java.io.File )
+  Unable to fully structure code
+verifyZipFile(java.io.File )
+  Loose catch block
+
+
+android.support.v4.app.BackStackRecord
+----------------------------
+
+expandOps(java.util.ArrayList<android.support.v4.app.Fragment> android.support.v4.app.Fragment )
+  Unable to fully structure code
+interactsWith(java.util.ArrayList<android.support.v4.app.BackStackRecord> int int )
+  Unable to fully structure code
+
+
+android.support.v4.app.BundleCompat
+----------------------------
+
+getBinder(android.os.Bundle java.lang.String )
+  Unable to fully structure code
+putBinder(android.os.Bundle java.lang.String android.os.IBinder )
+  Unable to fully structure code
+
+
+android.support.v4.app.FragmentManagerImpl
+----------------------------
+
+loadAnimation(android.support.v4.app.Fragment int boolean int )
+  Loose catch block
+popBackStackState(java.util.ArrayList<android.support.v4.app.BackStackRecord> java.util.ArrayList<java.lang.Boolean> java.lang.String int int )
+  Unable to fully structure code
+
+
+android.support.v4.app.FragmentTransition
+----------------------------
+
+calculateNameOverrides(int java.util.ArrayList<android.support.v4.app.BackStackRecord> java.util.ArrayList<java.lang.Boolean> int int )
+  Unable to fully structure code
+
+
+android.support.v4.app.FragmentTransitionCompat21
+----------------------------
+
+setNameOverridesReordered(android.view.View java.util.ArrayList<android.view.View> java.util.ArrayList<android.view.View> java.util.ArrayList<java.lang.String> java.util.Map<java.lang.String, java.lang.String> )
+  Unable to fully structure code
+
+
+android.support.v4.app.NotificationCompatApi21
+----------------------------
+
+getUnreadConversationFromBundle(android.os.Bundle android.support.v4.app.NotificationCompatBase$UnreadConversation$Factory android.support.v4.app.RemoteInputCompatBase$RemoteInput$Factory )
+  Unable to fully structure code
+
+
+android.support.v4.app.NotificationCompatJellybean
+----------------------------
+
+getExtras(android.app.Notification )
+  Loose catch block
+
+
+android.support.v4.app.NotificationManagerCompat
+----------------------------
+
+processListenerQueue(android.support.v4.app.NotificationManagerCompat$SideChannelManager$ListenerRecord )
+  Unable to fully structure code
+
+
+android.support.v4.content.CursorLoader
+----------------------------
+
+loadInBackground()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 12[CATCHBLOCK]
+
+
+android.support.v4.graphics.TypefaceCompatApi21Impl
+----------------------------
+
+createFromFontInfo(android.content.Context android.os.CancellationSignal android.support.v4.provider.FontsContractCompat$FontInfo[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 5 blocks at once
+
+
+android.support.v4.graphics.TypefaceCompatApi24Impl
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+android.support.v4.graphics.TypefaceCompatApi26Impl
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+createFromFontInfo(android.content.Context android.os.CancellationSignal android.support.v4.provider.FontsContractCompat$FontInfo[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.support.v4.graphics.TypefaceCompatUtil
+----------------------------
+
+copyToFile(java.io.File java.io.InputStream )
+  Unable to fully structure code
+mmap(android.content.Context android.os.CancellationSignal android.net.Uri )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 8 blocks at once
+mmap(java.io.File )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.support.v4.media.MediaBrowserCompat
+----------------------------
+
+handleMessage(android.os.Message )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+android.support.v4.os.CancellationSignal
+----------------------------
+
+cancel()
+  Unable to fully structure code
+
+
+android.support.v4.provider.FontsContractCompat
+----------------------------
+
+getFontFromProvider(android.content.Context android.support.v4.provider.FontRequest java.lang.String android.os.CancellationSignal )
+  Unable to fully structure code
+
+
+android.support.v4.provider.SelfDestructiveThread
+----------------------------
+
+postAndWait(java.util.concurrent.Callable<T> int )
+  Unable to fully structure code
+
+
+android.support.v4.view.ViewPager
+----------------------------
+
+arrowScroll(int )
+  Unable to fully structure code
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.v4.view.GestureDetectorCompat
+----------------------------
+
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.v4.view.ViewCompat
+----------------------------
+
+hasAccessibilityDelegate(android.view.View )
+  Loose catch block
+
+
+android.support.v4.widget.SwipeRefreshLayout
+----------------------------
+
+onInterceptTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.v7.app.AppCompatViewInflater
+----------------------------
+
+createView(android.content.Context java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+android.support.v7.view.SupportMenuInflater
+----------------------------
+
+parseMenu(org.xmlpull.v1.XmlPullParser android.util.AttributeSet android.view.Menu )
+  Unable to fully structure code
+inflate(int android.view.Menu )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 5[CATCHBLOCK]
+
+
+android.support.v7.widget.ActivityChooserModel
+----------------------------
+
+readHistoricalDataImpl()
+  Unable to fully structure code
+doInBackground(java.lang.Object[] )
+  Loose catch block
+
+
+android.support.v7.widget.AppCompatSpinner
+----------------------------
+
+<init>(android.content.Context android.util.AttributeSet int int android.content.res.Resources$Theme )
+  Unable to fully structure code
+
+
+android.support.v7.widget.DrawableUtils
+----------------------------
+
+getOpticalBounds(android.graphics.drawable.Drawable )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+
+
+android.support.v7.widget.GapWorker
+----------------------------
+
+buildTaskList()
+  Unable to fully structure code
+
+
+android.support.v7.widget.LinearLayoutManager
+----------------------------
+
+fill(android.support.v7.widget.RecyclerView$Recycler android.support.v7.widget.LinearLayoutManager$LayoutState android.support.v7.widget.RecyclerView$State boolean )
+  Unable to fully structure code
+
+
+android.support.v7.widget.GridLayoutManager
+----------------------------
+
+onFocusSearchFailed(android.view.View int android.support.v7.widget.RecyclerView$Recycler android.support.v7.widget.RecyclerView$State )
+  Unable to fully structure code
+
+
+android.support.v7.widget.StaggeredGridLayoutManager
+----------------------------
+
+onLayoutChildren(android.support.v7.widget.RecyclerView$Recycler android.support.v7.widget.RecyclerView$State boolean )
+  Unable to fully structure code
+
+
+android.support.v7.widget.SuggestionsAdapter
+----------------------------
+
+getDrawable(android.net.Uri )
+  Unable to fully structure code
+
+
+android.support.v7.widget.TintContextWrapper
+----------------------------
+
+wrap(android.content.Context )
+  Unable to fully structure code
+
+
+android.support.v7.widget.Toolbar
+----------------------------
+
+onLayout(boolean int int int int )
+  Unable to fully structure code
+
+
+butterknife.ButterKnife
+----------------------------
+
+findBindingConstructorForClass(java.lang.Class<?> )
+  Loose catch block
+
+
+com.bumptech.glide.disklrucache.DiskLruCache
+----------------------------
+
+completeEdit(com.bumptech.glide.disklrucache.DiskLruCache$Editor boolean )
+  Unable to fully structure code
+readJournal()
+  Unable to fully structure code
+
+
+com.bumptech.glide.gifencoder.NeuQuant
+----------------------------
+
+learn()
+  Unable to fully structure code
+
+
+com.bumptech.glide.load.engine.DecodeJob
+----------------------------
+
+write(java.io.File )
+  Loose catch block
+
+
+com.bumptech.glide.load.model.GenericLoaderFactory
+----------------------------
+
+getFactory(java.lang.Class<T> java.lang.Class<Y> )
+  Unable to fully structure code
+
+
+com.bumptech.glide.load.resource.bitmap.Downsampler
+----------------------------
+
+getConfig(java.io.InputStream com.bumptech.glide.load.DecodeFormat )
+  Unable to fully structure code
+shouldUsePool(java.io.InputStream )
+  Loose catch block
+decode(java.io.InputStream com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool int int com.bumptech.glide.load.DecodeFormat )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+com.bumptech.glide.load.resource.bitmap.ImageHeaderParser
+----------------------------
+
+getOrientation()
+  Unable to fully structure code
+
+
+com.bumptech.glide.load.resource.file.FileToStreamDecoder
+----------------------------
+
+decode(java.io.File int int )
+  Loose catch block
+
+
+com.crashlytics.android.answers.EnabledSessionAnalyticsManagerStrategy
+----------------------------
+
+sendEvents()
+  Loose catch block
+
+
+com.crashlytics.android.beta.Beta
+----------------------------
+
+loadBuildProperties(android.content.Context )
+  Loose catch block
+
+
+com.crashlytics.android.beta.DeviceTokenLoader
+----------------------------
+
+load(android.content.Context )
+  Unable to fully structure code
+
+
+com.crashlytics.android.core.CodedOutputStream
+----------------------------
+
+writeRawBytes(com.crashlytics.android.core.ByteString int int )
+  Unable to fully structure code
+
+
+com.crashlytics.android.core.CrashlyticsController
+----------------------------
+
+doWriteExternalCrashEvent(com.crashlytics.android.core.internal.models.SessionEventData )
+  Unable to fully structure code
+doWriteNonFatal(java.util.Date java.lang.Thread java.lang.Throwable )
+  Unable to fully structure code
+synthesizeSessionFile(java.io.File java.lang.String java.io.File[] java.io.File )
+  Unable to fully structure code
+writeBeginSession(java.lang.String java.util.Date )
+  Loose catch block
+writeFatal(java.util.Date java.lang.Thread java.lang.Throwable )
+  Unable to fully structure code
+writeSessionApp(java.lang.String )
+  Loose catch block
+writeSessionDevice(java.lang.String )
+  Loose catch block
+writeSessionOS(java.lang.String )
+  Loose catch block
+writeSessionUser(java.lang.String )
+  Loose catch block
+writeToCosFromFile(com.crashlytics.android.core.CodedOutputStream java.io.File )
+  Loose catch block
+
+
+com.crashlytics.android.core.MetaDataStore
+----------------------------
+
+readKeyData(java.lang.String )
+  Unable to fully structure code
+readUserData(java.lang.String )
+  Unable to fully structure code
+writeKeyData(java.lang.String java.util.Map<java.lang.String, java.lang.String> )
+  Unable to fully structure code
+
+
+com.facebook.cache.disk.DiskStorageCache
+----------------------------
+
+maybeUpdateFileCacheSizeAndIndex()
+  Unable to fully structure code
+getResource(com.facebook.cache.common.CacheKey )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[CATCHBLOCK]
+
+
+com.facebook.common.statfs.StatFsHelper
+----------------------------
+
+updateStatsHelper(android.os.StatFs java.io.File )
+  Unable to fully structure code
+
+
+com.facebook.drawee.controller.AbstractDraweeController
+----------------------------
+
+onNewResultInternal(java.lang.String com.facebook.datasource.DataSource<T> T float boolean boolean )
+  Loose catch block
+
+
+com.facebook.drawee.drawable.RoundedBitmapDrawable
+----------------------------
+
+setRadii(float[] )
+  Unable to fully structure code
+
+
+com.facebook.drawee.generic.GenericDraweeHierarchyInflater
+----------------------------
+
+updateBuilder(com.facebook.drawee.generic.GenericDraweeHierarchyBuilder android.content.Context android.util.AttributeSet )
+  Unable to fully structure code
+
+
+com.facebook.imagepipeline.cache.BufferedDiskCache
+----------------------------
+
+call()
+  Loose catch block
+readFromDiskCache(com.facebook.cache.common.CacheKey )
+  Unable to fully structure code
+
+
+com.facebook.imagepipeline.decoder.ProgressiveJpegParser
+----------------------------
+
+doParseMoreData(java.io.InputStream )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.facebook.imagepipeline.memory.BasePool
+----------------------------
+
+trimToSize(int )
+  Unable to fully structure code
+
+
+com.facebook.imagepipeline.platform.GingerbreadPurgeableDecoder
+----------------------------
+
+copyToMemoryFile(com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.memory.PooledByteBuffer> int byte[] )
+  Loose catch block
+decodeFileDescriptorAsPurgeable(com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.memory.PooledByteBuffer> int byte[] android.graphics.BitmapFactory$Options )
+  Unable to fully structure code
+
+
+com.facebook.imagepipeline.producers.BitmapMemoryCacheProducer
+----------------------------
+
+onNewResultImpl(com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage> boolean )
+  Unable to fully structure code
+
+
+com.facebook.imagepipeline.producers.LocalFetchProducer
+----------------------------
+
+getByteBufferBackedEncodedImage(java.io.InputStream int )
+  Unable to fully structure code
+
+
+com.facebook.imagepipeline.producers.EncodedMemoryCacheProducer
+----------------------------
+
+produceResults(com.facebook.imagepipeline.producers.Consumer<com.facebook.imagepipeline.image.EncodedImage> com.facebook.imagepipeline.producers.ProducerContext )
+  Unable to fully structure code
+
+
+com.facebook.imagepipeline.producers.LocalAssetFetchProducer
+----------------------------
+
+getLength(com.facebook.imagepipeline.request.ImageRequest )
+  Loose catch block
+
+
+com.facebook.imagepipeline.producers.LocalResourceFetchProducer
+----------------------------
+
+getLength(com.facebook.imagepipeline.request.ImageRequest )
+  Loose catch block
+
+
+com.facebook.imagepipeline.producers.PostprocessorProducer
+----------------------------
+
+doPostprocessing(com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage> boolean )
+  Loose catch block
+
+
+com.facebook.imagepipeline.producers.ResizeAndRotateProducer
+----------------------------
+
+doTransform(com.facebook.imagepipeline.image.EncodedImage boolean )
+  Unable to fully structure code
+
+
+com.facebook.imagepipeline.producers.WebpTranscodeProducer
+----------------------------
+
+getResult()
+  Loose catch block
+
+
+com.firebase.jobdispatcher.GooglePlayCallbackExtractor
+----------------------------
+
+extractWrappedBinderFromParcel(android.os.Bundle )
+  Unable to fully structure code
+
+
+com.firebase.jobdispatcher.JobServiceConnection
+----------------------------
+
+onServiceConnected(android.content.ComponentName android.os.IBinder )
+  Unable to fully structure code
+
+
+com.getkeepsafe.relinker.ApkLibraryInstaller
+----------------------------
+
+installLibrary(android.content.Context java.lang.String[] java.lang.String java.io.File com.getkeepsafe.relinker.ReLinkerInstance )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 11[TRYBLOCK]
+
+
+com.getqardio.android.CustomApplication
+----------------------------
+
+requestSHealthPermissions(com.getqardio.android.shealth.ShealthPermissionKeys com.samsung.android.sdk.healthdata.HealthResultHolder$ResultListener<com.samsung.android.sdk.healthdata.HealthPermissionManager$PermissionResult> com.getqardio.android.shealth.OnSHealthConnectionErrorListener )
+  Unable to fully structure code
+
+
+com.getqardio.android.baseble.QardioBaseService
+----------------------------
+
+scanAndConnectL21(java.lang.String )
+  Unable to fully structure code
+
+
+com.google.firebase.messaging.FirebaseMessagingService
+----------------------------
+
+handleIntent(android.content.Intent )
+  Unable to fully structure code
+
+
+com.getqardio.android.fcm.QardioFirebaseMessagingService
+----------------------------
+
+onMessageReceived(com.google.firebase.messaging.RemoteMessage )
+  Unable to fully structure code
+
+
+com.getqardio.android.handler.QBOnboardingManager
+----------------------------
+
+onReceive(android.content.Context android.content.Intent )
+  Unable to fully structure code
+
+
+com.getqardio.android.io.network.JSONParser
+----------------------------
+
+parseBPMeasurements(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseClaimMeasurements(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseCreateNewUser(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseDataAsString(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseFAQList(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseFirmwareDescription(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseForgotPassword(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseGetCurrentGoal(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseGetProfileInfo(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseGetSettings(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parsePregnancyMode(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseReminderDeletion(java.lang.String com.getqardio.android.io.network.response.BaseResponse<?, java.util.List<com.getqardio.android.io.network.response.BaseError>> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseSetPregnancyModeResponse(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseSetProfileInfo(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseSetSettings(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseStatistic(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseStatusAndErrors(java.lang.String com.getqardio.android.io.network.response.BaseResponse<?, java.util.List<com.getqardio.android.io.network.response.BaseError>> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseTooltipsList(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseUserActiveDeviceAssociations(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+parseWeightMeasurements(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.getqardio.android.io.network.NetworkRequestHelper
+----------------------------
+
+readStreamAsString(java.io.InputStream )
+  Unable to fully structure code
+
+
+com.getqardio.android.io.network.request.BPMeasurementsRequestHandler
+----------------------------
+
+getBPMeasurements(android.content.Context android.content.Intent long java.lang.String )
+  Unable to fully structure code
+syncBPMeasurements(android.content.Context android.content.Intent long java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [8[UNCONDITIONALDOLOOP]], but top level block is 17[SIMPLE_IF_TAKEN]
+
+
+com.getqardio.android.io.network.request.ClaimMeasurementsRequestHandler
+----------------------------
+
+syncClaimMeasurements(android.content.Context long java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [8[UNCONDITIONALDOLOOP]], but top level block is 17[SIMPLE_IF_TAKEN]
+
+
+com.getqardio.android.io.network.request.CurrentGoalRequestHandler
+----------------------------
+
+syncCurrentGoal(android.content.Context android.content.Intent long java.lang.String )
+  Unable to fully structure code
+
+
+com.getqardio.android.io.network.request.FlickrRequestHandler
+----------------------------
+
+generateRandomIndexes(int int )
+  Unable to fully structure code
+
+
+com.getqardio.android.io.network.request.WeightMeasurementsRequestHandler
+----------------------------
+
+getWeightMeasurements(android.content.Context android.content.Intent long java.lang.String )
+  Unable to fully structure code
+syncWeightMeasurements(android.content.Context android.content.Intent long java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [8[UNCONDITIONALDOLOOP]], but top level block is 17[SIMPLE_IF_TAKEN]
+
+
+com.getqardio.android.io.network.response.ReminderResponse
+----------------------------
+
+parse(java.lang.String )
+  Unable to fully structure code
+
+
+com.getqardio.android.mvp.common.remote.ConverterFactory
+----------------------------
+
+injectDataInPureJsonField(java.lang.Object com.google.gson.JsonElement )
+  Unable to fully structure code
+convert(okhttp3.ResponseBody )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 6[CATCHBLOCK]
+
+
+com.github.mikephil.charting.renderer.BarChartRenderer
+----------------------------
+
+drawValues(android.graphics.Canvas )
+  Unable to fully structure code
+
+
+com.getqardio.android.provider.AppSQLStorage
+----------------------------
+
+onUpgrade(android.database.sqlite.SQLiteDatabase int int )
+  Unable to fully structure code
+
+
+com.getqardio.android.provider.DataHelper
+----------------------------
+
+getAllFlickrPhotosMetadata(android.content.Context )
+  Unable to fully structure code
+
+
+com.getqardio.android.provider.MeasurementHelper
+----------------------------
+
+changeMeasurementsTag(android.content.Context long java.util.Collection<java.lang.Long> int )
+  Unable to fully structure code
+changeMeasurementsTag(android.content.Context long java.util.List<com.getqardio.android.datamodel.BPMeasurement> int )
+  Unable to fully structure code
+changeSyncStatuses(android.content.Context long java.util.Collection<com.getqardio.android.datamodel.SyncStatusMetadata> )
+  Unable to fully structure code
+deleteMeasurementsFromCache(android.content.Context long java.util.Collection<java.lang.Long> )
+  Unable to fully structure code
+getLastMeasurement(android.content.Context long )
+  Loose catch block
+getMeasurementByTimestamp(android.content.Context java.lang.Long long )
+  Loose catch block
+getMeasurementStatus(android.content.Context long long )
+  Loose catch block
+getMeasurementsCountForSync(android.content.Context long )
+  Loose catch block
+getMeasurementsStatuses(android.content.Context long )
+  Unable to fully structure code
+getMinMaxMeasurementsDate(android.content.Context long )
+  Unable to fully structure code
+replaceMeasurements(android.content.Context long java.util.List<com.getqardio.android.datamodel.BPMeasurement> )
+  Unable to fully structure code
+deleteClaimMeasurementsFromCache(android.content.Context long java.util.Collection<java.lang.Integer> )
+  Unable to fully structure code
+replaceClaimMeasurements(android.content.Context long java.util.List<com.getqardio.android.datamodel.ClaimMeasurement> )
+  Unable to fully structure code
+changeSyncStatuses(android.content.Context long java.util.Collection<com.getqardio.android.datamodel.SyncStatusMetadata> )
+  Unable to fully structure code
+deleteMeasurementsFromCache(android.content.Context long java.util.Collection<java.lang.Long> )
+  Unable to fully structure code
+getMeasurementStatus(android.content.Context long long )
+  Loose catch block
+getMeasurementsCountForSync(android.content.Context long )
+  Loose catch block
+getMeasurementsStatuses(android.content.Context long )
+  Unable to fully structure code
+replaceMeasurements(android.content.Context long java.util.List<com.getqardio.android.datamodel.WeightMeasurement> )
+  Unable to fully structure code
+
+
+com.getqardio.android.provider.TooltipHelper
+----------------------------
+
+saveTooltips(android.content.Context java.util.List<com.getqardio.android.datamodel.Tooltip> )
+  Unable to fully structure code
+
+
+com.getqardio.android.shealth.QardioTracker
+----------------------------
+
+showDefaultTile(android.content.Context java.lang.String java.lang.String int android.content.Intent )
+  Unable to fully structure code
+
+
+com.getqardio.android.ui.fragment.PregnancyMeasurementFragment
+----------------------------
+
+lambda$processPhoto$4(android.net.Uri java.io.File )
+  Exception : java.lang.IllegalStateException: Backjump on non jumping statement [] lbl19 : TryStatement: try { 2[TRYBLOCK]
+
+
+
+com.getqardio.android.ui.fragment.QBStepOnSettingHostFragment
+----------------------------
+
+onReceive(android.content.Context android.content.Intent )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.getqardio.android.ui.fragment.WeightLastMeasurementFragment
+----------------------------
+
+onReceive(android.content.Context android.content.Intent )
+  Unable to fully structure code
+
+
+com.getqardio.android.ui.widget.MeasurementsChart
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.getqardio.android.utils.CipherManager
+----------------------------
+
+decrypt(android.content.Context java.lang.String )
+  Unable to fully structure code
+encrypt(android.content.Context java.lang.String )
+  Unable to fully structure code
+
+
+com.getqardio.android.utils.CrashlyticsUtil
+----------------------------
+
+logExceptionFromWear(com.google.android.gms.wearable.DataMap )
+  Unable to fully structure code
+
+
+com.getqardio.android.utils.RandomImageGenerator
+----------------------------
+
+getAllImagesFromDevice(android.content.Context )
+  Unable to fully structure code
+
+
+com.getqardio.android.utils.Utils
+----------------------------
+
+copyFile(java.io.File java.io.File )
+  Unable to fully structure code
+
+
+com.getqardio.android.utils.ui.BackPanelListViewHelper
+----------------------------
+
+onTouch(android.view.View android.view.MotionEvent )
+  Unable to fully structure code
+
+
+com.github.mikephil.charting.buffer.BarBuffer
+----------------------------
+
+feed(com.github.mikephil.charting.interfaces.datasets.IBarDataSet )
+  Unable to fully structure code
+
+
+com.github.mikephil.charting.buffer.HorizontalBarBuffer
+----------------------------
+
+feed(com.github.mikephil.charting.interfaces.datasets.IBarDataSet )
+  Unable to fully structure code
+
+
+com.github.mikephil.charting.components.Legend
+----------------------------
+
+calculateDimensions(android.graphics.Paint com.github.mikephil.charting.utils.ViewPortHandler )
+  Unable to fully structure code
+
+
+com.github.mikephil.charting.highlight.CombinedHighlighter
+----------------------------
+
+getHighlightsAtXValue(float float float )
+  Unable to fully structure code
+
+
+com.github.mikephil.charting.renderer.BubbleChartRenderer
+----------------------------
+
+drawValues(android.graphics.Canvas )
+  Unable to fully structure code
+
+
+com.github.mikephil.charting.renderer.CandleStickChartRenderer
+----------------------------
+
+drawValues(android.graphics.Canvas )
+  Unable to fully structure code
+
+
+com.github.mikephil.charting.renderer.HorizontalBarChartRenderer
+----------------------------
+
+drawValues(android.graphics.Canvas )
+  Unable to fully structure code
+
+
+com.github.mikephil.charting.renderer.LegendRenderer
+----------------------------
+
+computeLegend(com.github.mikephil.charting.data.ChartData<?> )
+  Unable to fully structure code
+
+
+com.github.mikephil.charting.renderer.LineChartRenderer
+----------------------------
+
+drawCircles(android.graphics.Canvas )
+  Unable to fully structure code
+drawValues(android.graphics.Canvas )
+  Unable to fully structure code
+
+
+com.github.mikephil.charting.renderer.PieChartRenderer
+----------------------------
+
+drawValues(android.graphics.Canvas )
+  Unable to fully structure code
+
+
+com.github.mikephil.charting.renderer.YAxisRendererRadarChart
+----------------------------
+
+renderLimitLines(android.graphics.Canvas )
+  Unable to fully structure code
+
+
+com.google.android.gms.ads.identifier.AdvertisingIdClient
+----------------------------
+
+zzc(android.content.Context boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+
+
+com.google.android.gms.ads.identifier.zza
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.google.android.gms.common.GoogleApiAvailability
+----------------------------
+
+zza(android.content.Context int java.lang.String android.app.PendingIntent )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+
+
+com.google.android.gms.common.zzp
+----------------------------
+
+isGooglePlayServicesAvailable(android.content.Context )
+  Loose catch block
+zzch(android.content.Context )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.api.internal.zzaa
+----------------------------
+
+blockingConnect(long java.util.concurrent.TimeUnit )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.api.internal.zzad
+----------------------------
+
+onComplete(com.google.android.gms.tasks.Task<java.util.Map<com.google.android.gms.common.api.internal.zzh<?>, java.lang.String>> )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.api.internal.zzo
+----------------------------
+
+onActivityResult(int int android.content.Intent )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.api.internal.zzao
+----------------------------
+
+zzb(com.google.android.gms.common.ConnectionResult com.google.android.gms.common.api.Api<?> boolean )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.api.internal.zzbi
+----------------------------
+
+blockingConnect(long java.util.concurrent.TimeUnit )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.api.internal.zzdj
+----------------------------
+
+release()
+  Loose catch block
+
+
+com.google.android.gms.common.api.internal.zzv
+----------------------------
+
+isConnected()
+  Unable to fully structure code
+
+
+com.google.android.gms.common.data.DataHolder
+----------------------------
+
+zza(com.google.android.gms.common.data.DataHolder$zza int )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.internal.zzd
+----------------------------
+
+zza(com.google.android.gms.common.internal.zzan java.util.Set<com.google.android.gms.common.api.Scope> )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.internal.zzi
+----------------------------
+
+zzaks()
+  Loose catch block
+
+
+com.google.android.gms.common.internal.zzu
+----------------------------
+
+zzcm(android.content.Context )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.util.zza
+----------------------------
+
+zza(T[] T[] )
+  Unable to fully structure code
+
+
+com.google.android.gms.common.util.zzs
+----------------------------
+
+zzcj(int )
+  Loose catch block
+
+
+com.google.android.gms.dynamite.DynamiteModule
+----------------------------
+
+zza(android.content.Context com.google.android.gms.dynamite.DynamiteModule$zzd java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+zzc(android.content.Context java.lang.String boolean )
+  Unable to fully structure code
+zze(android.content.Context java.lang.String boolean )
+  Unable to fully structure code
+zzhb(java.lang.String )
+  Unable to fully structure code
+
+
+com.google.android.gms.iid.zzo
+----------------------------
+
+zzib(java.lang.String )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzapq
+----------------------------
+
+zzwl()
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzaqi
+----------------------------
+
+onServiceConnected(android.content.ComponentName android.os.IBinder )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzaql
+----------------------------
+
+zza(java.lang.String java.lang.String[] long )
+  Unable to fully structure code
+zzn(long )
+  Unable to fully structure code
+zzo(long )
+  Unable to fully structure code
+zzq(long )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzaqm
+----------------------------
+
+zza(android.database.sqlite.SQLiteDatabase java.lang.String )
+  Unable to fully structure code
+onOpen(android.database.sqlite.SQLiteDatabase )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzaqo
+----------------------------
+
+zzyd()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 0[TRYBLOCK]], but top level block is 20[CATCHBLOCK]
+onServiceConnected()
+  Unable to fully structure code
+zza(com.google.android.gms.internal.zzaqf boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+com.google.android.gms.internal.zzaqu
+----------------------------
+
+zzbn(android.content.Context )
+  Unable to fully structure code
+zzs(android.content.Context java.lang.String )
+  Loose catch block
+
+
+com.google.android.gms.internal.zzarb
+----------------------------
+
+zza(android.content.res.XmlResourceParser )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzarx
+----------------------------
+
+zza(java.net.URL byte[] )
+  Unable to fully structure code
+zzb(java.net.URL byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [8[CATCHBLOCK]], but top level block is 10[CATCHBLOCK]
+zzv(java.util.List<com.google.android.gms.internal.zzarq> )
+  Unable to fully structure code
+zzu(java.util.List<com.google.android.gms.internal.zzarq> )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzbs
+----------------------------
+
+zzf(com.google.android.gms.internal.zzfjj )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.google.android.gms.internal.zzcaj
+----------------------------
+
+zzho(java.lang.String )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzcgk
+----------------------------
+
+zza(java.lang.String com.google.android.gms.internal.zzcmb[] com.google.android.gms.internal.zzcmg[] )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzcgo
+----------------------------
+
+zza(com.google.android.gms.internal.zzchm android.database.sqlite.SQLiteDatabase java.lang.String )
+  Unable to fully structure code
+zza(long java.lang.String boolean boolean boolean boolean boolean )
+  Unable to fully structure code
+zza(java.lang.String com.google.android.gms.internal.zzclr[] )
+  Unable to fully structure code
+zzae(java.lang.String java.lang.String )
+  Unable to fully structure code
+zzag(java.lang.String java.lang.String )
+  Unable to fully structure code
+zzah(java.lang.String java.lang.String )
+  Unable to fully structure code
+zzaj(java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+zzak(java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+zzal(java.lang.String java.lang.String )
+  Unable to fully structure code
+zzayf()
+  Unable to fully structure code
+zzba(long )
+  Unable to fully structure code
+zzc(java.lang.String java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[CATCHBLOCK]], but top level block is 6[CATCHBLOCK]
+zzg(java.lang.String java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [13[DOLOOP]], but top level block is 3[TRYBLOCK]
+zzja(java.lang.String )
+  Unable to fully structure code
+zzjb(java.lang.String )
+  Unable to fully structure code
+zzjd(java.lang.String )
+  Unable to fully structure code
+zzje(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+zzl(java.lang.String int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+
+
+com.google.android.gms.internal.zzchi
+----------------------------
+
+zzb(int byte[] )
+  Unable to fully structure code
+zzeb(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [13[TRYBLOCK]], but top level block is 26[CATCHBLOCK]
+
+
+com.google.android.gms.internal.zzchj
+----------------------------
+
+onOpen(android.database.sqlite.SQLiteDatabase )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzchu
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzcil
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 25[UNCONDITIONALDOLOOP]
+
+
+com.google.android.gms.internal.zzcim
+----------------------------
+
+zza(android.content.Context java.lang.String java.lang.String boolean boolean )
+  Loose catch block
+zza(java.lang.String com.google.android.gms.internal.zzcha )
+  Unable to fully structure code
+zzc(com.google.android.gms.internal.zzcha com.google.android.gms.internal.zzcgi )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [7[TRYBLOCK]], but top level block is 8[TRYBLOCK]
+zzg(java.lang.String long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [9[TRYBLOCK]], but top level block is 26[CATCHBLOCK]
+zza(int java.lang.Throwable byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 8[TRYBLOCK]
+zzb(java.lang.String int java.lang.Throwable byte[] java.util.Map<java.lang.String, java.util.List<java.lang.String>> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+zzbah()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+zzf(com.google.android.gms.internal.zzcgi )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 6[CATCHBLOCK]
+zzjx(java.lang.String )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzcir
+----------------------------
+
+zza(com.google.android.gms.internal.zzcgi boolean )
+  Unable to fully structure code
+zza(java.lang.String java.lang.String com.google.android.gms.internal.zzcgi )
+  Unable to fully structure code
+zza(java.lang.String java.lang.String java.lang.String boolean )
+  Unable to fully structure code
+zza(java.lang.String java.lang.String boolean com.google.android.gms.internal.zzcgi )
+  Unable to fully structure code
+zza(com.google.android.gms.internal.zzcha java.lang.String )
+  Unable to fully structure code
+zzj(java.lang.String java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzcjn
+----------------------------
+
+zza(java.lang.String java.lang.String long android.os.Bundle boolean boolean boolean java.lang.String )
+  Unable to fully structure code
+zzb(java.lang.String java.lang.String long android.os.Bundle boolean boolean boolean java.lang.String )
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzckc
+----------------------------
+
+zza(android.app.Activity com.google.android.gms.internal.zzckf boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 8[UNCONDITIONALDOLOOP]
+
+
+com.google.android.gms.internal.zzckq
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+
+
+com.google.android.gms.internal.zzckr
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+
+
+com.google.android.gms.internal.zzcku
+----------------------------
+
+onServiceConnected(android.content.ComponentName android.os.IBinder )
+  Loose catch block
+
+
+com.google.android.gms.internal.zzclq
+----------------------------
+
+zza(java.lang.String java.lang.Object boolean )
+  Unable to fully structure code
+zzag(java.lang.Object )
+  Loose catch block
+
+
+com.google.android.gms.internal.zzclu
+----------------------------
+
+zzh(com.google.android.gms.internal.zzfjj )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.google.android.gms.internal.zzclw
+----------------------------
+
+zzi(com.google.android.gms.internal.zzfjj )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.google.android.gms.internal.zzdmd
+----------------------------
+
+zzj(com.google.android.gms.internal.zzfjj )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+
+
+com.google.android.gms.internal.zzdvl
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+com.google.android.gms.internal.zzfjn
+----------------------------
+
+zza(java.lang.Object com.google.android.gms.internal.zzfjk )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.google.android.gms.internal.zzfjt
+----------------------------
+
+zza(java.lang.String java.lang.Object java.lang.StringBuffer java.lang.StringBuffer )
+  Unable to fully structure code
+
+
+com.google.android.gms.location.ActivityRecognitionResult
+----------------------------
+
+extractResult(android.content.Intent )
+  Unable to fully structure code
+
+
+com.google.android.gms.maps.GoogleMap
+----------------------------
+
+setOnMapLoadedCallback(com.google.android.gms.maps.GoogleMap$OnMapLoadedCallback )
+  Unable to fully structure code
+
+
+com.google.android.gms.tagmanager.DataLayer
+----------------------------
+
+zzy(java.util.Map<java.lang.String, java.lang.Object> )
+  Unable to fully structure code
+
+
+com.google.android.gms.tagmanager.zzat
+----------------------------
+
+zzaj(java.lang.Object )
+  Unable to fully structure code
+zzek(int )
+  Unable to fully structure code
+zzv(byte[] )
+  Unable to fully structure code
+
+
+com.google.android.gms.tagmanager.zzax
+----------------------------
+
+zza(java.lang.String android.database.sqlite.SQLiteDatabase )
+  Unable to fully structure code
+
+
+com.google.android.gms.tagmanager.zzec
+----------------------------
+
+zzbfm()
+  Unable to fully structure code
+zzep(int )
+  Unable to fully structure code
+zzeq(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+com.google.android.gms.tagmanager.zzee
+----------------------------
+
+zza(java.lang.String android.database.sqlite.SQLiteDatabase )
+  Unable to fully structure code
+
+
+com.google.android.gms.tagmanager.zzfv
+----------------------------
+
+zzal(java.util.List<com.google.android.gms.tagmanager.zzbx> )
+  Unable to fully structure code
+
+
+com.google.android.gms.tagmanager.zzgk
+----------------------------
+
+zzam(java.lang.Object )
+  Unable to fully structure code
+
+
+com.google.android.gms.wearable.DataMap
+----------------------------
+
+equals(java.lang.Object )
+  Unable to fully structure code
+
+
+com.google.android.gms.wearable.internal.zzhh
+----------------------------
+
+zzbkf()
+  Loose catch block
+
+
+com.google.firebase.FirebaseApp
+----------------------------
+
+zza(java.lang.Class<T> T java.lang.Iterable<java.lang.String> )
+  Unable to fully structure code
+
+
+com.google.firebase.iid.FirebaseInstanceId
+----------------------------
+
+zzb(java.lang.String java.lang.String android.os.Bundle )
+  Unable to fully structure code
+
+
+com.google.firebase.iid.zzaa
+----------------------------
+
+zzcjn()
+  Unable to fully structure code
+zzrp(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 7[SWITCH]
+
+
+com.google.firebase.iid.zzk
+----------------------------
+
+zzb(com.google.firebase.iid.zzr )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+zzm(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.google.firebase.iid.zzv
+----------------------------
+
+zzaf(android.os.Bundle )
+  Unable to fully structure code
+zzad(android.os.Bundle )
+  Unable to fully structure code
+
+
+com.google.firebase.iid.zzx
+----------------------------
+
+zze(android.content.Context android.content.Intent )
+  Unable to fully structure code
+
+
+com.google.firebase.iid.zzy
+----------------------------
+
+zzrm(java.lang.String )
+  Unable to fully structure code
+
+
+com.google.firebase.messaging.SendException
+----------------------------
+
+<init>(java.lang.String )
+  Unable to fully structure code
+
+
+com.google.firebase.messaging.zza
+----------------------------
+
+zzs(android.os.Bundle )
+  Unable to fully structure code
+
+
+com.google.firebase.messaging.zzc
+----------------------------
+
+zza(com.google.android.gms.internal.zzfku java.lang.String com.google.firebase.messaging.zzb )
+  Loose catch block
+zza(com.google.android.gms.measurement.AppMeasurement android.content.Context java.lang.String com.google.android.gms.internal.zzfku com.google.firebase.messaging.zzb int )
+  Loose catch block
+
+
+com.google.gson.internal.LinkedTreeMap
+----------------------------
+
+find(K boolean )
+  Unable to fully structure code
+
+
+com.google.gson.stream.JsonReader
+----------------------------
+
+peekNumber()
+  Unable to fully structure code
+
+
+com.google.gson.internal.bind.util.ISO8601Utils
+----------------------------
+
+parse(java.lang.String java.text.ParsePosition )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.mixpanel.android.java_websocket.WebSocketImpl
+----------------------------
+
+close(int java.lang.String boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 3[CATCHBLOCK]
+decodeFrames(java.nio.ByteBuffer )
+  Unable to fully structure code
+decodeHandshake(java.nio.ByteBuffer )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+
+
+com.mixpanel.android.java_websocket.client.WebSocketClient
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.mixpanel.android.java_websocket.drafts.Draft
+----------------------------
+
+readLine(java.nio.ByteBuffer )
+  Unable to fully structure code
+
+
+com.mixpanel.android.java_websocket.util.Base64
+----------------------------
+
+encodeBytesToBytes(byte[] int int int )
+  Unable to fully structure code
+
+
+com.mixpanel.android.mpmetrics.AnalyticsMessages
+----------------------------
+
+getDefaultEventProperties()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[CASE]], but top level block is 1[TRYBLOCK]
+sendData(com.mixpanel.android.mpmetrics.MPDbAdapter java.lang.String com.mixpanel.android.mpmetrics.MPDbAdapter$Table java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 5[CATCHBLOCK]
+handleMessage(android.os.Message )
+  Unable to fully structure code
+
+
+com.mixpanel.android.mpmetrics.DecideMessages
+----------------------------
+
+reportResults(java.util.List<com.mixpanel.android.mpmetrics.InAppNotification> org.json.JSONArray org.json.JSONArray boolean org.json.JSONArray )
+  Loose catch block
+
+
+com.mixpanel.android.mpmetrics.InAppFragment
+----------------------------
+
+onSingleTapUp(android.view.MotionEvent )
+  Loose catch block
+
+
+com.mixpanel.android.mpmetrics.InAppNotification
+----------------------------
+
+<init>(android.os.Parcel )
+  Loose catch block
+
+
+com.mixpanel.android.mpmetrics.MPDbAdapter
+----------------------------
+
+generateDataString(com.mixpanel.android.mpmetrics.MPDbAdapter$Table java.lang.String boolean )
+  Unable to fully structure code
+
+
+com.mixpanel.android.mpmetrics.MixpanelAPI
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+com.mixpanel.android.mpmetrics.MixpanelActivityLifecycleCallbacks
+----------------------------
+
+trackCampaignOpenedIfNeeded(android.content.Intent )
+  Unable to fully structure code
+
+
+com.mixpanel.android.takeoverinapp.TakeoverInAppActivity
+----------------------------
+
+onClick(android.view.View )
+  Unable to fully structure code
+
+
+com.mixpanel.android.util.HttpService
+----------------------------
+
+performRequest(java.lang.String java.util.Map<java.lang.String, java.lang.Object> javax.net.ssl.SSLSocketFactory )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 17[CATCHBLOCK]
+
+
+com.mixpanel.android.util.ImageStore
+----------------------------
+
+getImageFile(java.lang.String )
+  Unable to fully structure code
+
+
+com.mixpanel.android.viewcrawler.ViewCrawler
+----------------------------
+
+sendDeviceInfo()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+sendError(java.lang.String )
+  Loose catch block
+sendLayoutError(com.mixpanel.android.viewcrawler.ViewVisitor$LayoutErrorMessage )
+  Loose catch block
+sendReportTrackToEditor(java.lang.String )
+  Loose catch block
+sendSnapshot(org.json.JSONObject )
+  Loose catch block
+handleMessage(android.os.Message )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+com.prolificinteractive.materialcalendarview.MaterialCalendarView
+----------------------------
+
+<init>(android.content.Context android.util.AttributeSet )
+  Unable to fully structure code
+setSelectionMode(int )
+  Unable to fully structure code
+
+
+com.samsung.android.sdk.healthdata.HealthDataStore
+----------------------------
+
+a(java.net.URL )
+  Unable to fully structure code
+d()
+  Loose catch block
+f()
+  Unable to fully structure code
+connectService(long )
+  Loose catch block
+disconnectService()
+  Unable to fully structure code
+
+
+com.samsung.android.sdk.healthdata.HealthPermissionManager
+----------------------------
+
+b(android.os.Bundle )
+  Unable to fully structure code
+requestPermissions(java.util.Set<com.samsung.android.sdk.healthdata.HealthPermissionManager$PermissionKey> android.app.Activity )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 5[CATCHBLOCK]
+
+
+com.samsung.android.sdk.internal.database.BulkCursorNative
+----------------------------
+
+onTransact(int android.os.Parcel android.os.Parcel int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CASE]], but top level block is 0[TRYBLOCK]
+
+
+com.samsung.android.sdk.internal.healthdata.IpcUtil
+----------------------------
+
+receiveBlob(java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 6 blocks at once
+receiveStream(java.lang.String java.lang.String )
+  Unable to fully structure code
+sendBlob(java.lang.String com.samsung.android.sdk.healthdata.HealthData java.lang.String )
+  Unable to fully structure code
+
+
+com.samsung.android.sdk.shealth.PluginService
+----------------------------
+
+loadTrackerEventListener(java.lang.String )
+  Loose catch block
+
+
+com.segment.analytics.Client
+----------------------------
+
+close()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 4[CATCHBLOCK]
+
+
+com.segment.analytics.SegmentIntegration
+----------------------------
+
+performEnqueue(com.segment.analytics.integrations.BasePayload )
+  Loose catch block
+performFlush()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 8[CATCHBLOCK]
+
+
+com.shopify.buy3.HttpCallbackWithRetry
+----------------------------
+
+onResponse(okhttp3.Call okhttp3.Response )
+  Loose catch block
+
+
+com.shopify.buy3.pay.PayHelper
+----------------------------
+
+isReadyToPay(android.content.Context com.google.android.gms.common.api.GoogleApiClient java.util.Set<com.shopify.buy3.pay.CardNetworkType> com.shopify.buy3.pay.PayHelper$AndroidPayReadyCallback )
+  Unable to fully structure code
+
+
+io.branch.referral.Base64
+----------------------------
+
+process(byte[] int int boolean )
+  Unable to fully structure code
+process(byte[] int int boolean )
+  Unable to fully structure code
+
+
+io.branch.referral.Branch
+----------------------------
+
+checkForAutoDeepLinkConfiguration()
+  Unable to fully structure code
+getBranchInstance(android.content.Context boolean )
+  Loose catch block
+readAndStripParam(android.net.Uri android.app.Activity )
+  Unable to fully structure code
+setActivityLifeCycleObserver(android.app.Application )
+  Unable to fully structure code
+
+
+io.branch.referral.ServerRequestQueue
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+io.branch.referral.SystemObserver
+----------------------------
+
+getLocalIPAddress()
+  Unable to fully structure code
+getURIScheme(java.lang.String )
+  Unable to fully structure code
+
+
+io.branch.referral.network.BranchRemoteInterfaceUrlConnection
+----------------------------
+
+doRestfulGet(java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 2[TRYBLOCK]
+doRestfulPost(java.lang.String org.json.JSONObject int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[TRYBLOCK]
+
+
+io.fabric.sdk.android.services.concurrency.AsyncTask
+----------------------------
+
+executeOnExecutor(java.util.concurrent.Executor Params[] )
+  Unable to fully structure code
+
+
+io.fabric.sdk.android.services.common.AdvertisingInfoServiceStrategy
+----------------------------
+
+getAdvertisingInfo()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+io.fabric.sdk.android.services.common.CommonUtils
+----------------------------
+
+extractFieldFromSystemFile(java.io.File java.lang.String )
+  Unable to fully structure code
+
+
+io.fabric.sdk.android.services.events.QueueFileEventStorage
+----------------------------
+
+move(java.io.File java.io.File )
+  Loose catch block
+
+
+io.fabric.sdk.android.services.network.HttpRequest
+----------------------------
+
+closeOutput()
+  Unable to fully structure code
+part(java.lang.String java.lang.String java.lang.String java.io.File )
+  Unable to fully structure code
+
+
+io.fabric.sdk.android.services.settings.AbstractAppSpiCall
+----------------------------
+
+applyMultipartDataTo(io.fabric.sdk.android.services.network.HttpRequest io.fabric.sdk.android.services.settings.AppRequestData )
+  Unable to fully structure code
+
+
+io.fabric.sdk.android.services.settings.DefaultCachedSettingsIo
+----------------------------
+
+readCachedSettings()
+  Unable to fully structure code
+writeCachedSettings(long org.json.JSONObject )
+  Unable to fully structure code
+
+
+io.reactivex.exceptions.CompositeException
+----------------------------
+
+getListOfCauses(java.lang.Throwable )
+  Unable to fully structure code
+getRootCause(java.lang.Throwable )
+  Unable to fully structure code
+
+
+io.reactivex.internal.operators.flowable.FlowableFlatMap
+----------------------------
+
+drainLoop()
+  Unable to fully structure code
+
+
+io.reactivex.internal.operators.flowable.FlowableZip
+----------------------------
+
+drain()
+  Unable to fully structure code
+
+
+io.reactivex.internal.operators.observable.ObservableFlatMap
+----------------------------
+
+drainLoop()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Nonsensical loop would be emitted - failure
+
+
+io.reactivex.internal.operators.observable.ObservableFlattenIterable
+----------------------------
+
+onNext(T )
+  Loose catch block
+
+
+io.reactivex.internal.operators.observable.ObservableObserveOn
+----------------------------
+
+drainNormal()
+  Unable to fully structure code
+
+
+io.reactivex.internal.operators.single.SingleFlatMapIterableObservable
+----------------------------
+
+onSuccess(T )
+  Unable to fully structure code
+
+
+io.reactivex.internal.schedulers.NewThreadWorker
+----------------------------
+
+scheduleActual(java.lang.Runnable long java.util.concurrent.TimeUnit io.reactivex.internal.disposables.DisposableContainer )
+  Unable to fully structure code
+scheduleDirect(java.lang.Runnable long java.util.concurrent.TimeUnit )
+  Unable to fully structure code
+
+
+io.reactivex.internal.schedulers.SingleScheduler
+----------------------------
+
+scheduleDirect(java.lang.Runnable long java.util.concurrent.TimeUnit )
+  Unable to fully structure code
+schedule(java.lang.Runnable long java.util.concurrent.TimeUnit )
+  Unable to fully structure code
+
+
+io.reactivex.internal.util.OpenHashSet
+----------------------------
+
+add(T )
+  Unable to fully structure code
+
+
+io.realm.BaseRealm
+----------------------------
+
+onResult(int )
+  Unable to fully structure code
+
+
+io.realm.FollowMeUserRealmProxy
+----------------------------
+
+copyOrUpdate(io.realm.Realm com.getqardio.android.mvp.friends_family.follow_me.model.local.FollowMeUser boolean java.util.Map<io.realm.RealmModel, io.realm.internal.RealmObjectProxy> )
+  Unable to fully structure code
+
+
+io.realm.IFollowUserRealmProxy
+----------------------------
+
+copyOrUpdate(io.realm.Realm com.getqardio.android.mvp.friends_family.i_follow.model.local.IFollowUser boolean java.util.Map<io.realm.RealmModel, io.realm.internal.RealmObjectProxy> )
+  Unable to fully structure code
+
+
+io.realm.RealmCache
+----------------------------
+
+copyFileIfNeeded(java.lang.String java.io.File )
+  Unable to fully structure code
+doCreateRealmOrGetFromCache(io.realm.RealmConfiguration java.lang.Class<E> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 12[CATCHBLOCK]
+
+
+io.realm.RealmList
+----------------------------
+
+toString()
+  Unable to fully structure code
+
+
+io.realm.UserRealmProxy
+----------------------------
+
+copyOrUpdate(io.realm.Realm com.getqardio.android.mvp.common.local.model.User boolean java.util.Map<io.realm.RealmModel, io.realm.internal.RealmObjectProxy> )
+  Unable to fully structure code
+
+
+net.danlew.android.joda.ResourceZoneInfoProvider
+----------------------------
+
+loadZoneData(java.lang.String )
+  Loose catch block
+
+
+okhttp3.Cookie
+----------------------------
+
+parse(long okhttp3.HttpUrl java.lang.String )
+  Unable to fully structure code
+
+
+okhttp3.HttpUrl
+----------------------------
+
+canonicalize(okio.Buffer java.lang.String int int java.lang.String boolean boolean boolean boolean )
+  Unable to fully structure code
+percentDecode(okio.Buffer java.lang.String int int boolean )
+  Unable to fully structure code
+decodeIpv6(java.lang.String int int )
+  Unable to fully structure code
+portColonOffset(java.lang.String int int )
+  Unable to fully structure code
+
+
+okhttp3.internal.cache.DiskLruCache
+----------------------------
+
+readJournal()
+  Unable to fully structure code
+completeEdit(okhttp3.internal.cache.DiskLruCache$Editor boolean )
+  Unable to fully structure code
+
+
+okhttp3.internal.connection.RealConnection
+----------------------------
+
+connectTls(okhttp3.internal.connection.ConnectionSpecSelector )
+  Loose catch block
+
+
+okhttp3.internal.http.RetryAndFollowUpInterceptor
+----------------------------
+
+intercept(okhttp3.Interceptor$Chain )
+  Unable to fully structure code
+
+
+okhttp3.internal.http2.Hpack
+----------------------------
+
+writeHeaders(java.util.List<okhttp3.internal.http2.Header> )
+  Unable to fully structure code
+
+
+okhttp3.internal.http2.Http2Connection
+----------------------------
+
+execute()
+  Unable to fully structure code
+writeData(int boolean okio.Buffer long )
+  Unable to fully structure code
+execute()
+  Loose catch block
+
+
+okhttp3.internal.http2.Http2Reader
+----------------------------
+
+readSettings(okhttp3.internal.http2.Http2Reader$Handler int byte int )
+  Unable to fully structure code
+
+
+okhttp3.internal.http2.Http2Stream
+----------------------------
+
+receive(okio.BufferedSource long )
+  Unable to fully structure code
+
+
+okhttp3.internal.http2.Huffman
+----------------------------
+
+decode(byte[] )
+  Unable to fully structure code
+
+
+okhttp3.internal.platform.AndroidPlatform
+----------------------------
+
+buildIfSupported()
+  Unable to fully structure code
+
+
+okhttp3.logging.HttpLoggingInterceptor
+----------------------------
+
+intercept(okhttp3.Interceptor$Chain )
+  Loose catch block
+
+
+okio.Buffer
+----------------------------
+
+indexOf(byte long )
+  Unable to fully structure code
+readHexadecimalUnsignedLong()
+  Unable to fully structure code
+
+
+okio.RealBufferedSource
+----------------------------
+
+indexOf(byte long )
+  Unable to fully structure code
+skip(long )
+  Unable to fully structure code
+
+
+org.joda.time.DateTimeZone
+----------------------------
+
+getDefault()
+  Loose catch block
+getDefaultNameProvider()
+  Unable to fully structure code
+convertLocalToUTC(long boolean )
+  Unable to fully structure code
+
+
+org.joda.time.format.DateTimeFormat
+----------------------------
+
+isNumericToken(java.lang.String )
+  Unable to fully structure code
+
+
+org.joda.time.format.DateTimeFormatterBuilder
+----------------------------
+
+printTo(java.lang.Appendable long org.joda.time.Chronology )
+  Unable to fully structure code
+parseInto(org.joda.time.format.DateTimeParserBucket java.lang.CharSequence int )
+  Unable to fully structure code
+parseInto(org.joda.time.format.DateTimeParserBucket java.lang.CharSequence int )
+  Unable to fully structure code
+
+
+org.joda.time.format.DateTimeParserBucket
+----------------------------
+
+sort(org.joda.time.format.DateTimeParserBucket$SavedField[] int )
+  Unable to fully structure code
+computeMillis(boolean java.lang.CharSequence )
+  Unable to fully structure code
+
+
+org.joda.time.tz.DateTimeZoneBuilder
+----------------------------
+
+readFrom(java.io.DataInput java.lang.String )
+  Unable to fully structure code
+
+
+org.joda.time.tz.ZoneInfoProvider
+----------------------------
+
+loadZoneData(java.lang.String )
+  Unable to fully structure code
+
+
+retrofit2.OkHttpCall
+----------------------------
+
+execute()
+  Unable to fully structure code
+
+
+retrofit2.RequestBuilder
+----------------------------
+
+canonicalizeForPath(okio.Buffer java.lang.String int int boolean )
+  Unable to fully structure code

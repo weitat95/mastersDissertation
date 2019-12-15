@@ -11,5 +11,3 @@ mitm -- scripts for port forwarding to deploy MITM attacks. includes MITM proxy 
 revEngApp --  contain source code for the decompiled application for Activ8Lives App
 
 testbed -- contains scripts and configs for testbed to deplot MITM proxy.
-
-screenshots -- duh
